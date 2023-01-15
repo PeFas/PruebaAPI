@@ -14,6 +14,7 @@ public class RutinaService
     };
     }
 
+
     public static List<Rutina> GetAll() => Rutinas;
 
     public static Rutina? Get(int id) => Rutinas.FirstOrDefault(p => p.Id == id);
