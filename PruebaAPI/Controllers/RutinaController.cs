@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace PruebaAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("/")]
     [ApiController]
     public class RutinaController : ControllerBase
     {
