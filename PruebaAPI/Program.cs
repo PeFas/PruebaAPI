@@ -32,7 +32,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy(name: MyAllowSpecificOrigins,
                       policy =>
                       {
-                          policy.WithOrigins("null"); // add the allowed origins  
+                          policy.WithOrigins("https://ejerciciosapi.azure-api.net/rutina"); // add the allowed origins  
                       });
 });
 
